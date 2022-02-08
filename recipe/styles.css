@@ -1,0 +1,23 @@
+h1{
+  font-family: cursive;
+  font-size: 80px;
+  color: pink
+}
+body{
+  font-size: 25px;
+  font-weight: lighter;
+  color: blue
+}
+h2{
+  font-family: cursive;
+  font-size: 50px;
+  color: pink
+}
+ul{
+  list-style: circle;
+}
+main{
+  margin: auto;
+  max-width: 700px
+  background-color: yellow
+}
