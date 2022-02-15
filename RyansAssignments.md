@@ -1,5 +1,5 @@
 interactiondesign
 
-[Poems](file:/Users/ryanrusko/Desktop/interaction%20design/Poems/index.html) 
-[Recipe](file:/Users/ryanrusko/Desktop/interaction%20design/recipe/index.html) 
+[Poems](/Users/ryanrusko/Desktop/interaction%20design/Poems/index.html) 
+[Recipe](/Users/ryanrusko/Desktop/interaction%20design/recipe/index.html) 
 
