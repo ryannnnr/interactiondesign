@@ -12,8 +12,12 @@
 body {
   color: var(--black);
   background: var(--background);
+  text-align: justify;
 }
-
+h1{
+  color: grey;
+  font-size: 1rem;
+}
 .box {
   max-width: 800px;
   margin: auto;
@@ -31,13 +35,14 @@ p {
   background: white;
 }
 #header {
-  background: pink;
+  background: Black;
 }
 #footer {
-  background: deeppink;
+  background: Black;
+  font-size: 1rem;
 }
-.hero-image {
-  background-image: url("butterfly.jpg");
+.hero-choice {
+  background-color: black;
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,18 +53,68 @@ p {
   min-height: 300px
 }
 .hero-text {
-  text-align: center;
+  text-align: justify;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 4rem;
-  font-weight: bold;
+font-size: 2rem;
 }
 @media (min-width: 600px) {
 .box {
   column-count: 2;
   text-align: left;
 }
+}
+.hero-image {
+  background-image: url(home.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 300px
+}
+.died-image {
+  background-image: url(died.jpg);
+  height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 600px;
+}
+.road-image {
+  background-image: url(road.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 300px
+}
+.arrow-image {
+  background-image: url(arrow.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 300px
+}
+.pickup-image {
+  background-image: url(pickup.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 700px
 }
