@@ -1,0 +1,16 @@
+h1{
+  font-family: monospace;
+  padding: inherit;
+  justify-content: center;
+}
+body{
+ color: #803c94;
+ background-color: #e3b5f0;
+}
+p{
+  font-size: 3rem;
+}
+div{
+  font-size: 2rem;
+  text-align: center;
+}
