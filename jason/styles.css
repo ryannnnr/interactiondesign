@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  font-family: monospace;
+}
+.header,.footer{
+height: auto;
+flex-wrap: wrap;
+background-color: #2C3E50;
+}
+footer{
+  color: white;
+  font-family: monospace;
+}
+
+body{
+  background-color: #212F3D;
+  text-align: center;
+}
+div{
+  background-color:;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.data_holder{
+  align-items: stretch;
+}
+.gallerydiv{
+  width: 40%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.galleryphoto{
+  max-width: 60%;
+}
+p{
+  text-align: center;
+  font-size: 11px;
+  color: white;
+  font-family: monospace;
+  background-color: #2C3E50;
+  width: 100%;
+}
