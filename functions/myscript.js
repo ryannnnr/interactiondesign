@@ -2,17 +2,17 @@ function fredfunction() { // create a function.
     console.log('fredfunction has run');
 }
 
-fredfunction(); // call the function.
+fredfunction();
 
-function maryfun() { // create a function that changes x.
+function maryfun() {
   x = x + 1;
 }
 
-var x = 42; // create a variable.
+var x = 42;
 
-console.log( "x = " + x ); // print the variable.
+console.log( "x = " + x );
 
-maryfun(); // call a function.
+maryfun();
 
 console.log( "x = " + x ); // print the value of x.
 
@@ -42,17 +42,45 @@ function addFunc(a,b) { // This function takes two arguments, adds them together
   return c;
 }
 
+function subtractFunc(a,b) { // This function takes two arguments, adds them together and puts them into c.
+  var c = a - b;
+  return c;
+}
+
+function divideFunc(a,b) { // This function takes two arguments, adds them together and puts them into c.
+  var c = a / b;
+  return c;
+}
+
+function multiplyFunc(a,b) { // This function takes two arguments, adds them together and puts them into c.
+  var c = a * b;
+  return c;
+}
+
 console.log(addFunc(6,12)); // Test the addFunc
 
 // Lets hook it into the html. This sends the values in the fields when you press the test button.
-document.getElementById("testButton").onclick = function() {
-  x = document.getElementById("field01").value;
-  y = document.getElementById("field02").value;
-  console.log(addFunc(x,y)); // Comes out wrong because the javascript thinks the fields give strings not numbers.
-}
 
 document.getElementById("addButton").onclick = function() { // Here it is again but the javascript changes the strings to numbers.
   x = parseInt(document.getElementById("field01").value);
   y = parseInt(document.getElementById("field02").value);
   document.getElementById("my_div").innerHTML = addFunc(x,y);
+}
+
+document.getElementById("subtractButton").onclick = function() { // Here it is again but the javascript changes the strings to numbers.
+  x = parseInt(document.getElementById("field01").value);
+  y = parseInt(document.getElementById("field02").value);
+  document.getElementById("my_div").innerHTML = subtractFunc(x,y);
+}
+
+document.getElementById("divideButton").onclick = function() {
+x = parseInt(document.getElementById("field01").value);
+  y = parseInt(document.getElementById("field02").value);
+  document.getElementById("my_div").innerHTML = divideFunc(x,y);
+}
+
+document.getElementById("multiplyButton").onclick = function() {
+x = parseInt(document.getElementById("field01").value);
+  y = parseInt(document.getElementById("field02").value);
+  document.getElementById("my_div").innerHTML = multiplyFunc(x,y);
 }

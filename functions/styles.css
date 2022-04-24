@@ -1,12 +1,46 @@
 h1{
-  text-align: center;
+justify-content: center;
+margin: 50px;
 }
 .cal{
-  border color: purple;
 text-align: center;
-  background: pink;
-  max-width: 300px;
-  max-height: 700px;
+  background: grey;
+  width: 300px;
+  height: 500px;
 }
-.my_div{
+body{
+  margin: 560px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+}
+.field{
+  font-size: 30px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.total{
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 90px;
+}
+.buttons{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  justify-content: center;
+}
+#addButton,#subtractButton,#testButton,#divideButton,#multiplyButton{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: black;
+  color:white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
